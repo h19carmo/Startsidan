@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* Stilmall för Förnamn Efternamn 1 */
+
+body{
+    font-family: Maven Pro;
+	background-image: url(/bilder/red1.png);
+	}
+h1{
+    color: darkcyan;
+    text-shadow: 4px 4px 15px #888888;
+    letter-spacing: 3px;
+    font-size: 50px;
+    font-weight: bold;
+}
+h2{
+	color: #FF4D4D;
+	text-shadow:4px 4px 4px #191919;
+	padding-left: 30px;
+}
+p{
+	padding-left: 40px;
+	font-size: 17px;
+}
+img{
+    width: 330px;
+    height: 230px;
+    margin-right: 70px;
+    float: right;
+    border: 2px solid darkcyan;
+    border-radius: 8px;
+    box-shadow: 4px 4px 10px #191919
+}
+#container{
+	margin-top: 20px;
+	background-color: #383838;
+	opacity: 0.94;
+	width: 910px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #4c4c4c;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+header{
+    background: /*url(deafault.asp)*/#383838;
+    /*height: 140px;*/
+	text-align: center;
+	padding: 30px;
+}
+nav{
+    height: 30px;
+	font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 4px;
+	
+	}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav li{
+    float: left;
+}
+/*NAV*/
+.box:link, .box:visited {
+    display: block;
+    width: 172px;
+	border: 1px solid #4C4C4C;
+    font-weight: bold;
+    color: #c3c3c3;
+	border-right-color: #383838;
+    background: #383838;
+    text-align: center;
+    padding: 4px;
+	
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.box:hover, .box:active {
+	color: #FFFFFF;
+    background: #4C4C4C;
+	border-right-color: #4C4C4C;
+}
+
+main{
+	/*height: 350px;*/
+	padding: 0px;
+	color: #E6E6E6;
+}
+
+footer{
+    padding: 16px;
+    font-size: 15px;
+    color: #C3C3C3;
+    border-top:1px solid #4c4c4c;
+    font-weight: bold;
+    text-align: center;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background: /*url(x/x)*/#383838;
+    /*background: linear-gradient(#A76500,#FF9900);*/
+    }
+    /*w3schools, youtube.com
