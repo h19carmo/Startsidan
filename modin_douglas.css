@@ -1,0 +1,88 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    background-image: url("/bilder/douglas/concert_bk1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    
+}
+
+h1 {
+    border-style: Groove;
+    border-top: none;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-color: black;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: rgba(211, 211, 211, 0.9);;
+}
+
+ul {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+li {
+    display: inline;  
+}
+
+li a {
+    border-style: groove;
+    border-radius: 5px;
+    border-color: black;
+    background-color: rgba(211, 211, 211, 0.9);
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+li a:hover {
+    background-color: darkgray;
+}
+
+.active {
+    background-color: gray;
+}
+
+
+main {
+    border-style: groove;
+    border-color: black;
+    border-radius: 5px;
+    background-color: rgba(211, 211, 211, 0.9);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+img {
+    max-width: 300px;
+    width: 30%;
+    float: left;
+    margin-right: 10em;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 120%;
+    margin: auto;
+    max-width: 35em;
+    color: #444444;
+}
+
+.clearfix {
+    overflow: auto;
+}
