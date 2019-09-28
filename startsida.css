@@ -1,78 +1,69 @@
-body {
-    background-color: grey;
-}
-
+body {background-color: grey;}
 h1 {
-    background-color: black;
-    width: 100%;
-    height: 4rem;
     color: white;
     text-align: center;
     font-family: Impact, Charcoal, sans-serif;
     font-size: 50px;
-    position: fixed;
-   left: 0;
-   top: 0;
-   margin: 0;
 }
-
-
-
-
-li a{
-    margin: 10px;
+header{
+    border: 1px solid #222;
+    background-color: #222;
+    width: 100%
 }
-
-li .navigation {
-    display: inline;
-    margin: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 80px;
+nav{   
+    background-color: lightslategrey;
+    width: 100%
 
 }
-
-ul {
+ul{   
+    list-style-type: none;
     text-align: center;
-    margin-top: 80px;
+    margin: 0;
+    padding: 0;
+}  
+li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
 }
-
-.center {
-display: block;
-margin-left: auto;
-margin-right: auto;
-width: 50%;
+li a{
+    color: green;
+    text-decoration: none;
 }
+li a:hover{
+    text-decoration: underline;
+  }
 
-
-
-h2 {
+/* _______________ main ______________ */
+main{
+    height: 300px;
+    border: 1px solid #4C4C4C;
+    background-color: #4C4C4C;
+}
+h2{
+    background-color: #4C4C4C;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
 }
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(12, 11, 11);
-    color: white;
-    text-align: center;
+/*_____________footer______________*/
+
+* {
+    box-sizing: border-box;
 }
 
-.contact {
-    display: inline;    
+h3{
+      text-align: center;
 }
-
-li .info{
-    display: inline-block;
+  .footer{
+      height: auto;
 }
-
-h2 {
-    font-size: 2rem;
-}
-
-p{
-    font-size: 25px;
+  .rad {
+    float: left;
+    width: 25%;
+  }
+  .info {
+    padding: 40px;
+    background-color: lightgrey;
+    padding-top: 5px;
 }
