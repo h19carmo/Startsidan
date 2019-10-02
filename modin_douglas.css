@@ -74,6 +74,15 @@ img {
     margin-right: 10em;
 }
 
+a img {
+    margin-top: 1em;
+    margin-right: 50px;
+    border-style: groove;
+    border-radius: 5px;
+    border-color: black;
+    width: 170px;
+}
+
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
@@ -81,6 +90,19 @@ p {
     margin: auto;
     max-width: 35em;
     color: #444444;
+}
+
+.albums p {
+    font-family: candara, sans-serif;
+    font-weight: bold;
+    font-size: 120%;
+    margin-top: 1em;
+    max-width: 35em;
+    color: #444444;
+}
+
+.left {
+    float: left;
 }
 
 .clearfix {
