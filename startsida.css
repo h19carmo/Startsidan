@@ -1,4 +1,8 @@
 body {background-color: grey;}
+.runt{
+    border: groove black 5px;
+    border-radius: 20px;
+}
 h1 {
     color: white;
     text-align: center;
@@ -12,7 +16,7 @@ header{
 }
 nav{   
     background-color: lightslategrey;
-    width: 100%
+    width: 100%;
 
 }
 ul{   
@@ -27,7 +31,7 @@ li{
     padding: 20px;
 }
 li a{
-    color: green;
+    color: black;
     text-decoration: none;
 }
 li a:hover{
@@ -36,7 +40,7 @@ li a:hover{
 
 /* _______________ main ______________ */
 main{
-    height: 300px;
+    height: 450px;
     border: 1px solid #4C4C4C;
     background-color: #4C4C4C;
 }
@@ -46,15 +50,24 @@ h2{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
 }
 
+img {
+    box-shadow: 10px 10px 8px #888888;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;   
+    width: 40%;
+}
+
 /*_____________footer______________*/
 
 * {
     box-sizing: border-box;
 }
 
-h3{
-      text-align: center;
-}
   .footer{
       height: auto;
 }
