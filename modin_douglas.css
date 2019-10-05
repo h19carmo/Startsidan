@@ -25,7 +25,7 @@ h1 {
     text-align: center;
     padding: 10px;
     margin: 0 auto;
-    background-color: rgba(211, 211, 211, 0.9);;
+    background-color: rgba(211, 211, 211, 0.9);
 }
 
 ul {
@@ -77,10 +77,11 @@ img {
 a img {
     margin-top: 1em;
     margin-right: 50px;
+    margin-bottom: 15px;
     border-style: groove;
     border-radius: 5px;
     border-color: black;
-    width: 170px;
+    width: 160px;
 }
 
 p {
@@ -90,6 +91,21 @@ p {
     margin: auto;
     max-width: 35em;
     color: #444444;
+}
+
+footer {
+    border-style: groove;
+    border-radius: 5px;
+    border-color: black;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgba(100, 100, 100, 0.9);
+}
+
+footer p {
+    display: inline-block;
+    padding: 10px;
+    color: black;
 }
 
 .albums p {
