@@ -1,0 +1,90 @@
+@charset "utf-8";
+body {
+    font-family:monospace;
+    background-image: url("bilder/carl/Space.jpg");}
+.runt{
+    margin-top: 20px;
+    margin-left: auto;
+	margin-right: auto;
+    width: 50%;
+    border: groove black 5px;
+    border-radius: 5px;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 50px;
+}
+header{
+    border: 1px groove #222;
+    background-color: #222;
+}
+nav{   
+    background-color: lightslategrey;
+    width: 100%;
+
+}
+ul{   
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}  
+li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
+li a{
+    color: black;
+    text-decoration: none;
+}
+li a:hover{
+    text-decoration: underline;
+  }
+
+/* _______________ main ______________ */
+main{
+    height: 450px;
+    border: 1px solid #4C4C4C;
+    background-color: #4C4C4C;
+}
+h2{
+    background-color: #4C4C4C;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+}
+
+img {
+    box-shadow: 10px 10px 8px #888888;
+}
+
+.center {
+    
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;   
+    width: 60%;
+}
+
+/*_____________footer______________*/
+
+
+  .footer{
+    height: auto;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow: hidden;
+}
+  .rad {
+    float: left;
+    width: 25%;
+  }
+  .info {
+    padding: 40px;
+    background-color: lightslategrey;
+    padding-top: 5px;
+}
