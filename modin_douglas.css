@@ -81,6 +81,7 @@ a img {
     border-radius: 5px;
     border-color: black;
     width: 170px;
+    margin-bottom: 10px;
 }
 
 p {
@@ -90,6 +91,21 @@ p {
     margin: auto;
     max-width: 35em;
     color: #444444;
+}
+
+footer {
+    background-color: rgba(100, 100, 100, 0.9);
+    text-align: center;
+    border-style: groove;
+    border-color: black;
+    border-radius: 5px;
+}
+
+footer p {
+    display: inline-block;
+    margin: 15px;
+    color: black;
+   
 }
 
 .albums p {
