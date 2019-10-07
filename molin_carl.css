@@ -34,12 +34,20 @@ margin: 0px;
     border-top-right-radius: 60px;
     border: solid grey 1px;
     bottom: 0;
-    height: 680px;
+    height: 720px;
+    width: 1000px;
+    position: relative;
+    margin: 0 auto;
 }
 
 .bildfält p{
-
+  position: relative;
+  margin-top: 0;
   display: inline-block;
+}
+#calle{
+   
+  margin-top: 10px;
 }
 
 .wrapper {
@@ -53,7 +61,9 @@ margin: 0px;
   border-top-right-radius: 30px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   border: solid grey 2px;
-  margin:20px;
+  margin:20px auto;
+  width: 1100px;
+
   
 }
 .wrapper ul {
