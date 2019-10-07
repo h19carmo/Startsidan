@@ -11,6 +11,7 @@ h1{font-family: monospace;
   text-align: center;
   font-family: Impact, Charcoal, sans-serif;
   font-size: 50px;
+  margin-top: 10px;
 }
 
 /*
@@ -52,6 +53,7 @@ margin: 0px;
   border-top-right-radius: 30px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   border: solid grey 2px;
+  margin:20px;
   
 }
 .wrapper ul {
