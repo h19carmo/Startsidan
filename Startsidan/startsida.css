@@ -1,7 +1,14 @@
-body {background-color: grey;}
+@charset "utf-8";
+body {
+    font-family:monospace;
+    background-image: url("bilder/carl/Space.jpg");}
 .runt{
+    margin-top: 20px;
+    margin-left: auto;
+	margin-right: auto;
+    width: 50%;
     border: groove black 5px;
-    border-radius: 20px;
+    border-radius: 5px;
 }
 h1 {
     color: white;
@@ -10,9 +17,8 @@ h1 {
     font-size: 50px;
 }
 header{
-    border: 1px solid #222;
+    border: 1px groove #222;
     background-color: #222;
-    width: 100%
 }
 nav{   
     background-color: lightslategrey;
@@ -55,21 +61,23 @@ img {
 }
 
 .center {
+    
+    border-radius: 5px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 12px;   
-    width: 40%;
+    width: 60%;
 }
 
 /*_____________footer______________*/
 
-* {
-    box-sizing: border-box;
-}
 
   .footer{
-      height: auto;
+    height: auto;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow: hidden;
 }
   .rad {
     float: left;
@@ -77,6 +85,6 @@ img {
   }
   .info {
     padding: 40px;
-    background-color: lightgrey;
+    background-color: lightslategrey;
     padding-top: 5px;
 }
