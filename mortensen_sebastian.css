@@ -7,7 +7,6 @@ h2 {
     font-size: 60px;
     color: rgb(255, 255, 255);
     font-family: monospace;
-    
 }
 
 h3 {
@@ -21,6 +20,12 @@ h3 {
     box-shadow: 10px 10px 8px #888888;
     opacity: 0.8;
     padding: 20px;
+}
+
+.profilepic {
+    width:230px;
+    float:left;
+    margin-right:25px;
 }
 
 ul {
@@ -49,7 +54,7 @@ ul li a:hover {
 }
 
 body {
-    background-image: url(/bilder/sebastian/bg6.jpg);
+    background-image: url(bilder/sebastian/bg6.jpg);
     background-size: cover;
 }
 
@@ -57,10 +62,4 @@ p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
     font-family: monospace;
-}
-
-.profilepic {
-    width:230px;
-    float:left;
-    margin-right:25px;
 }

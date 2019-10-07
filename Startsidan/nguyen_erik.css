@@ -1,7 +1,9 @@
 @charset "utf-8";
+/* Stilmall för Förnamn Efternamn 1 */
+
 body{
     font-family: Maven Pro;
-	background-image: url(bilder/erik/red1.jpg);
+	background-image: url(bilder/erik/red1.png);
 	}
 h1{
     color: darkcyan;
@@ -20,19 +22,16 @@ p{
 	font-size: 17px;
 }
 img{
-    width: 250px;
-    height: 160px;
-    margin-top:  30px;
-    margin-right: 50px;
+    width: 330px;
+    height: 230px;
+    margin-right: 70px;
     float: right;
-    border: 2px solid   darkcyan;
+    border: 2px solid darkcyan;
     border-radius: 8px;
-    box-shadow: 4px 4px 12px #191919;
+    box-shadow: 4px 4px 10px #191919
 }
 #container{
-    margin-top: 20px;
-    
-    box-shadow: 4px 4px 12px #191919;
+	margin-top: 20px;
 	background-color: #383838;
 	opacity: 0.94;
 	width: 910px;
@@ -89,13 +88,8 @@ nav li{
 
 main{
 	/*height: 350px;*/
-    padding: 30px;
+	padding: 0px;
 	color: #E6E6E6;
-}
-.hobby{
-    font-weight: bold;
-	color: #FFFFFF;
-    text-decoration: none;
 }
 
 footer{
