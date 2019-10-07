@@ -19,11 +19,6 @@ header{
 }
 */
 
-main{
-
-margin: 0px;
-
-}
 
 .bildfält {
     text-align: center;
@@ -34,7 +29,7 @@ margin: 0px;
     border-top-right-radius: 60px;
     border: solid grey 1px;
     bottom: 0;
-    height: 720px;
+    height: 700px;
     width: 1000px;
     position: relative;
     margin: 0 auto;
@@ -45,9 +40,9 @@ margin: 0px;
   margin-top: 0;
   display: inline-block;
 }
-#calle{
+.bildfält .Carl{
    
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .wrapper {
