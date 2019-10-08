@@ -89,12 +89,11 @@ header{
 
 footer{
     background-color: #1E1E1E;
-    position: fixed;
+    position: relative;
     padding: 10px;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+    width: 1366px;
     height: 30px;
+    margin-top:50px;
 }
 
 h3{
@@ -146,9 +145,7 @@ p{
   text-align: center;
 }
 
-.footer{
-  position: relative;
-}
+
 
 
 
