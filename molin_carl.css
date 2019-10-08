@@ -2,8 +2,8 @@
 
 body{
     background-image: url("bilder/carl/Space.jpg");
-    width: 1400px;
-    height: 800px;
+    width: 1366px;
+    height: 768px;
     margin: 0 auto;
 }
 h1{font-family: monospace;
@@ -144,6 +144,10 @@ p{
 
 .botten{
   text-align: center;
+}
+
+.footer{
+  position: relative;
 }
 
 
